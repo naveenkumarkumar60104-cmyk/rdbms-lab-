@@ -3,10 +3,7 @@ CREATE DATABASE CollegeDB;
 USE CollegeDB;
 
 
--- Create Department
-
--- Create Student
-
--- Insert sample records
-
--- INNER JOIN query
+CREATE TABLE Department (
+    DepartmentID NUMBER(5) PRIMARY KEY,
+    DepartmentName VARCHAR(30)
+);
