@@ -1,10 +1,9 @@
 DROP DATABASE IF EXISTS CollegeDB;
 CREATE DATABASE CollegeDB;
 USE CollegeDB;
--- Create Marksheet table
-
--- Insert sample records
-
--- Display students with Marks > 80
-
--- Sort by Marks DESC
+CREATE TABLE Marksheet (
+    RollNo NUMBER(5) PRIMARY KEY,
+    Name VARCHAR(20),
+    Department VARCHAR(20),
+    Marks NUMBER(5)
+);
